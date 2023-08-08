@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Clínica Veterinaria</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="px-5 py-8 flex justify-center bg-[#2980b9] items-center">
+        <div class="text-center">
+            <h1 class="text-4xl font-bold text-white mb-4">
+                Bienvenido a Clínica Veterinaria
+            </h1>
+            <p class="text-xl text-white">
+                Cuidamos de la salud y bienestar de tus mascotas. ¡Confía en nosotros!
+            </p>
+        </div>
+    </header>
+    <nav class="bg-[#2980b9] p-4 flex justify-center">
+        <a class="text-white mx-4 hover:text-[#34495e]" href="#">Servicios</a>
+        <a class="text-white mx-4 hover:text-[#34495e]" href="#">Productos</a>
+        <a class="text-white mx-4 hover:text-[#34495e]" href="#">Guardería</a>
+        <a class="text-white mx-4 hover:text-[#34495e]" href="#">Promociones</a>
+    </nav>
+    <main class="mx-auto mt-5 w-[90%]">
+        <div class="be grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="p-5 flex flex-col gap-5 bg-[#3498db] text-white">
+                <h2 class="text-3xl font-bold border-b-2 pb-2">Cuidados Médicos Especializados</h2>
+                <p class="text-xl">
+                    Nuestro equipo de veterinarios altamente capacitados se dedica a brindar los mejores cuidados médicos para tus mascotas. Desde vacunas hasta cirugías, estamos aquí para su salud y bienestar.
+                </p>
+                <a class="bg-[#34495e] p-3 w-32 text-center rounded-md text-white" href="#">Ver más..</a>
+            </div>
+            <div class="p-5 flex flex-col gap-5 bg-[#3498db] text-white">
+                <h2 class="text-3xl font-bold border-b-2 pb-2">Guardería y Hospedaje</h2>
+                <p class="text-xl">
+                    Si tienes que dejar a tu mascota durante un tiempo, no te preocupes, contamos con un servicio de guardería y hospedaje, donde se sentirá como en casa y bien cuidada.
+                </p>
+                <a class="bg-[#34495e] p-3 w-32 text-center rounded-md text-white" href="#">Ver más..</a>
+            </div>
+            <form action="" class="rounded-xl col-start-4 col-end-6 h-full bg-[#e67e22]">
+                <h2 class="text-center text-xl text-white bg-[#2980b9] block h-10 pt-1 rounded-tl-lg rounded-tr-lg">
+                    Solicitar Cita Médica
+                </h2>
+                <div class="flex flex-col p-5 h-full justify-evenly">
+                    <div class="flex p-2">
+                        <label class="text-xl text-black-100 w-28 mr-4 items-center" for="">Mascota:</label>
+                        <input class="w-full p-2 border-2 rounded-lg" type="text" placeholder="Nombre de tu mascota">
+                    </div>
+                    <div class="flex p-2">
+                        <label class="text-xl text-black-100 w-28 mr-4" for="">Edad:</label>
+                        <input class="w-full p-2 border-2 rounded-lg" type="number" placeholder="Edad de tu mascota">
+                    </div>
+                    <div class="flex p-2">
+                        <label class="text-xl text-black-100 w-28 mr-4" for="">Raza:</label>
+                        <input class="w-full p-2 border-2 rounded-lg" type="text" placeholder="Raza de tu mascota">
+                    </div>
+                    <div class="flex p-2">
+                        <label class="text-xl text-black-100 w-28 mr-4" for="">Fecha:</label>
+                        <input class="w-full p-2 border-2 rounded-lg" type="date">
+                    </div>
+                    <div class="flex p-2">
+                        <label class="text-xl text-black-100 w-28 mr-4" for="">Hora:</label>
+                        <input class="w-full p-2 border-2 rounded-lg" type="time">
+                    </div>
+                    <div class="flex p-2">
+                        <label class="text-xl text-black-100 w-28 mr-4" for="">Dueño:</label>
+                        <input class="w-full p-2 border-2 rounded-lg" type="text" placeholder="Tu nombre">
+                    </div>
+                    <button class="shadow-lg bg-[#2980b9] w-40 mx-auto p-3 rounded-lg text-center text-white">
+                        <a href="#">Validar Cita</a>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="p-5 text-center bg-[#2980b9] text-white">
+        <p>CONTÁCTENOS</p>
+        <p>Línea gratuita 014000-00054</p>
+        <p>Correo: info@clinicaveterinaria.com</p>
+    </footer>
+</body>
+</html>
